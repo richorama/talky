@@ -27,4 +27,6 @@
     "url": "https://github.com/richorama/talky/issues"
   },
   "homepage": "https://github.com/richorama/talky"
+  "preferGlobal": "true",
+  "directories": {"bin": "./bin"}
 }
