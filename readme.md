@@ -18,3 +18,7 @@ $ talky
 ```
 
 Then just type in some words, and press enter to hear the computer read them out.
+
+## License
+
+MIT
