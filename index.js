@@ -12,6 +12,7 @@ flite(function(err, s){
   speech = s;
   if(err){
     console.log(err);
+    rl.close();
   } else {
     ask();
   }
@@ -22,5 +23,4 @@ function ask(){
     speech.say(text);
     setImmediate(ask);
   });
-
 }
